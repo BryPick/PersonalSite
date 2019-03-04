@@ -1,0 +1,22 @@
+//Fonts
+@font-face {
+  font-family: 'Streamster';
+  src: url("resources/fonts/Streamster.ttf"); //Relative to where the App.css file is
+}
+
+/* GLOBAL VARIABLES */
+$black-color: #040f16;
+$light-blue-color: #01baef;
+$main-text-color: white;
+
+$box-shadow-left-divs: 3px 3px 3px $black-color;
+$box-shadow-right-divs: -3px 3px 3px $black-color;
+
+$image-size: 260px;
+
+$section-content-title-size: 25px;
+$section-content-body-size: 20px;
+
+@import "custom";
+
+@import "mediaqueries";

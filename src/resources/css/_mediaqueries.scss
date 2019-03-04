@@ -1,0 +1,211 @@
+@media only screen and (max-width: 1000px) {
+  $section-content-title-size: 20px;
+  $section-content-body-size: 15px;
+
+  /* CORE */
+  header {
+    flex-direction: column;
+  }
+
+  header hr {
+    border: 2px solid $black-color;
+    width: 80%;
+  }
+
+  /* CLASSES */
+  .company-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-content img {
+    width: 4%;
+  }
+
+  .contact-content p {
+    justify-content: center;
+  }
+
+  .language-name {
+    font-size: $section-content-body-size;
+  }
+
+  .language-type-title {
+    font-size: $section-content-title-size;
+  }
+
+  .rating {
+    height: 80%;
+  }
+
+  .rating p {
+    font-size: $section-content-body-size;
+  }
+
+  .rating-names {
+    font-size: $section-content-body-size;
+  }
+
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2% auto;
+  }
+
+  .section-content-body {
+    font-size: $section-content-body-size;
+  }
+
+  .section-content-title {
+    font-size: $section-content-title-size;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  /* IDS */
+  #about img {
+    margin: 3% auto;
+  }
+
+  #credits {
+    width: 80%;
+  }
+
+  #head-footer {
+    font-size: 3vw;
+  }
+
+  #main-nav {
+    border-left: 0;
+    width: 80%;
+    text-align: center;
+    padding-left: 0;
+    font-size: 3.5vw;
+  }
+
+  #main-nav ul {
+    padding-left: 0;
+    font-weight: bold;
+  }
+
+  #main-nav li {
+    margin: 7% 0;
+  }
+
+  #name-logo {
+    width: 100%;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #name-logo img {
+    height: 15vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  $section-content-title-size: 15px;
+  $section-content-body-size: 12px;
+
+
+  /* INHERITABLE */
+  %text-content-format {
+    font-size: 2.5vw;
+  }
+
+  /* CLASSES */
+  .company-name {
+    font-size: 1.5vw;
+  }
+
+  .contact-content img {
+    width: 5%;
+  }
+
+  .language-icon img {
+    width: 75%;
+  }
+
+  .language-name {
+    font-size: $section-content-body-size;
+  }
+
+  .language-name p {
+    margin-left: 20%;
+  }
+
+  .language-row {
+    margin-top: 2%;
+  }
+
+  .language-type-title {
+    font-size: $section-content-title-size;
+    margin-left: 6%;
+  }
+
+  .rating p {
+    font-size: $section-content-body-size;
+  }
+
+  .rating-names {
+    font-size: $section-content-body-size;
+    text-decoration: none;
+  }
+
+  .section {
+    margin-top: 10%;
+  }
+
+  .section-content-body {
+    font-size: $section-content-body-size;
+  }
+
+  .section-content-title {
+    font-size: $section-content-title-size;
+  }
+
+  .section-title {
+    width: 40%;
+    font-size: 2vw;
+  }
+
+  .text-content p:nth-child(n+2) {
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  /* IDS */
+  #about img {
+    width: 150px;
+  }
+
+  #lang-type-nav {
+    margin-top: 3%;
+  }
+
+  #lang-type-nav div {
+    width: 30%;
+    font-size: 2.75vw;
+  }
+
+  #manufacturer-rep-logo {
+    font-size: 1.5vw;
+    padding: 0 1%;
+    width: 25%;
+  }
+
+  #manufacturer-rep-logo h1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #projects-list {
+    width: 90%;
+  }
+}
